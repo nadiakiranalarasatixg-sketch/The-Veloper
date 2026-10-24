@@ -1,5 +1,5 @@
 html,body{
-    background-color: lightblue;
+    background-color: #add3ff;
     padding: 0;
     margin: 0;
 }
@@ -60,7 +60,7 @@ html,body{
     text-align:left;
     max-width: 600px;
     box-sizing: border-box;
-    background-color: #add3ff;
+    background-color: navy;
     color:white;
     padding: 10px;
     margin: 50px;
