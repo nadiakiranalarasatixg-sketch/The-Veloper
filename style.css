@@ -47,14 +47,15 @@ html,body{
     gap: 30px;
     padding: 40px;
 }
-.logo img{
+.logo{
     width: 100%;
     max-width: 500px;
-    height: auto;
 }
 .logo img{
     width: 100%;
-    max-width: 200px;
+    max-width: 500px;
+    heigth: auto;
+    object-fit: contain;
 }
 .isi-filosofi{
      flex: 1;
