@@ -1,0 +1,140 @@
+:root {
+  --primary: #3B82F6;
+  --secondary: #34D399;
+  --accent: #FACC15;
+  --section: #F5F8FC;
+  --surface: #FFFFFF;
+  --background: hwb(211 85% 1%);
+  --text: #24496E;
+  --text: #24496E;
+  --nav: #2b436e;
+  --box: #335296;
+}
+html,body{
+    background-color: var(--background);
+    padding: 0;
+    margin: 0;
+}
+.judul{
+    color:var(--text);
+    text-align: center;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.navigasi{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--nav);
+    padding: 15px 30px;
+    color: white;
+}
+.navbar h2{
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+.menu{
+    display: flex;
+    gap: 20px;
+}
+.menu a{
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-decoration: none;
+}
+.menu:link{
+    color: #3B82F6;
+}
+.manu:hover{
+    color: lightblue;
+}
+.opening{
+    text-align: center;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.subjudul{
+    color: yellow;
+    font-size: 35px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.filosofi{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    flex-direction:row-reverse;
+}
+.logo img{
+    width: 400px;
+    max-width: 500px;
+    heigth: 400px;
+    object-fit: contain;
+        background-color: white;
+    border-radius: 50%;
+    border: 2px solid#335296;
+}
+.lines{
+    display: flex;
+    gap: 6px;
+    margin-top: 18px;
+}
+.lines span{
+    height: 4px;
+    flex: 1;
+    border-radius: 10px;
+}
+.lines span:nth-child(1){
+    background-color: #3B82F6;
+}
+.lines span:nth-child(2){
+    background-color:#34D399;
+}
+.lines span:nth-child(3){
+    background-color:#FACC15;
+}
+.isi-filosofi{
+     flex: 1;
+    width:  100%;
+    text-align:left;
+    max-width: 600px;
+    color:white;
+    padding: 10px;
+    margin: 50px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    border-radius: 25px;
+    background-color: var(--box);
+    gap: 20px;
+    padding: 20px;
+    margin: 100px;
+}
+.isi-filosofi h2{
+    font-family: 'poppins',sans-serif;
+}
+.isi-filosofi p{
+line-height: 1,8;
+}
+.p1{
+    color: #ddebff;
+    font-size: 20px;
+    font-family:Arial, Helvetica, sans-serif
+}
+.makna{
+    text-align:center;
+    justify-content: center;
+    background-color: var(--box);
+    border-radius: 25px;
+    margin:300px;
+    margin-top: 10px;
+    padding: 20px;
+    color: yellow;
+    font-size: 20px;
+    gap: 10px;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.makna .li1{
+    font-size: 15px;
+    flex: 1;
+}
